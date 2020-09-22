@@ -1,24 +1,24 @@
 package io.mauriciofragajr.junit;
 
-public class Calculadora {
+public class Calculator {
 
-    public int soma (int a, int b) {
+    public int sum (int a, int b) {
         return a + b;
     }
 
-    public static int subtracao(int a, int b) {
+    public static int subtraction(int a, int b) {
         return a - b;
     }
 
-    public static int multiplicacao(int a, int b) {
+    public static int multiplication(int a, int b) {
         return a * b;
     }
 
-    public static int divisao(int a, int b) {
+    public static int division(int a, int b) {
         return a / b;
     }
 
-    public static int somatoria(int n) {
+    public static int summation(int n) {
         int somatorio = 0;
         while (n >= 0) {
             somatorio += n;
