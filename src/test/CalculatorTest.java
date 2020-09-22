@@ -14,11 +14,11 @@ class CalculatorTest {
         calc = new Calculator();
     }
 
-    @DisplayName("sum test")
+    //@DisplayName("sum test")
     @Test
     public void testSum() {
         int result = calc.sum(4,  5);
-        Assertions.assertEquals(9, result);
+        assertEquals(9, result);
     }
 
     @Test
